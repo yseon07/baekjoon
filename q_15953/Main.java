@@ -1,7 +1,9 @@
+package q_15953;
+
 import java.io.IOException;
 import java.util.Scanner;
 
-// https://www.acmicpc.net/problem/15953 / 15953번
+// https://www.acmicpc.net/problem/15953 / 15953
 public class Main {
 	public static void main(String[] args) throws IOException {
 		Scanner s = new Scanner(System.in);
@@ -36,8 +38,8 @@ public class Main {
 						break;
 					}
 				}
-				System.out.println(sum);
 			}
+			System.out.println(sum);
 		}
 		s.close();
 	}
